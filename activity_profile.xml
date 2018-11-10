@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imgViewProfile"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_launcher_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:id="@+id/tvUserDetailsTt"
+            android:text="@string/user_details"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tvUserDetails"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tvUserCarDetails"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvUserCar"
+            android:text="@string/user_car_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+</ScrollView>

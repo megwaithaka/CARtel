@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CARtel</string>
+    <string name="title_activity_profile">profile activity title</string>
+    <string name="user_details">user details</string>
+    <string name="user_car_details">user car details</string>
+    <string name="txt_cars">Adding Car....</string>
+    <string name="txt_car_add">Add Car</string>
+
+    <string name="google_maps_key">API key </string>
+    <string name="txt_my_cars">Car: </string>
+    <string name="txt_my_cars_title">My Cars: </string>
+    <string name="txt_my_cars_title_notfound"> User has no cars</string>
+    <string name="txt_car_added">Car was added</string>
+    <string name="txt_car_notadded">Car was not added</string>
+    <string name="txt_car_dealer">Enter Car Dealer</string>
+    <string name="title_activity_car">Add Car</string>
+    <string name="txt_car_make">Enter Car Make</string>
+    <string name="txt_car_name">Enter Car Name</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etCarName"
+        android:hint="@string/txt_car_name"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:id="@+id/spCarDealer"
+        android:layout_marginTop="10dp"
+        android:prompt="@string/txt_car_dealer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <EditText
+        android:id="@+id/etCarMake"
+        android:hint="@string/txt_car_make"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAddCar"
+        android:text="@string/txt_car_add"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
